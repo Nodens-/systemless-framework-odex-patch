@@ -1,8 +1,7 @@
-## Systemless Substratum (Legacy/Layers Mode)
- A Magisk module which allows installation of Substratum themes in legacy/root mode
-systemlessly.
+## Systemless Framework .odex Patching
+ A Magisk module which allows patching of framework .odex in a systemless way.
 
- The new Substratum OVM mode works systemlessly but requires support for it in the ROM.
-For the rest, the Legacy mode, which requires root access, normally writes in the
-system partition.
- This module aims to provide this functionality via Magisk in a systemless way.
+ 
+## Important Notes
+ If you are doing firmware updates or OTAs, make sure you disable module in MagiskManager
+prior to the update and/or clear your .odex patches.
